@@ -61,6 +61,27 @@ function displayContactDetails(addressBookToDisplay) {
 function showContact(contactId) {
   const contact = addressBook.findContact(contactId);
   $("#show-contact").show();
+  if(contact.firstName === ""){
+    $("#first-name").remove();
+  }
+  if(contact.lastName === ""){
+    $("#last-name").remove();
+  }
+  if(contact.phoneNumber === ""){
+    $("#phone-number").remove();
+  }
+  if(contact.address.workEmail === ""){
+    $("#work-email").remove();
+  }
+  if(contact.address.personalEmail === ""){
+    $("#personal-email").remove();
+  }
+  if(contact.address.workAddress === ""){
+    $("#work-address").remove();
+  }
+  if(contact.address.personalAddress === ""){
+    $("#personal-address").remove();
+  }
   $(".first-name").html(contact.firstName);
   $(".last-name").html(contact.lastName);
   $(".phone-number").html(contact.phoneNumber);
