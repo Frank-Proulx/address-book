@@ -1,33 +1,33 @@
-# _{Application Name}_
+# Address Book
 
-#### By _**{List of contributors}**_
+#### By Frank Proulx
 
-#### _{Brief description of application}_
+#### A website that captures and displays user input for an address book
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* JQuery
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This website takes multiple inputs to create a contact opject stored in an addressbook object. It displays each contact added as a list of first and last names, the user can click on a contact to get the full details of that contact. Empty fields are removed for the full display. The user can then delete that contact with a delete button on the contact.
 
 ## Setup/Installation Requirements
 
 * Create and/or navigate to the directory you would like to contain this project on your computer.
 * Initialize a git repository by typing **git init** in the terminal.
-* Type **git clone https://github.com/Frank-Proulx/insert_name_here** to clone the repository to your local machine.
-* Open the file "index.html" in the newly created "portfolio-landing" folder using either the GUI in your finder window, or typing **cd insert_name_here** and pressing return to navigate into the project folder, and then typing **open index.html** in the terminal from within the **insert_name_here** folder.  
+* Type **git clone https://github.com/Frank-Proulx/address-book** to clone the repository to your local machine.
+* Open the file "index.html" in the newly created "portfolio-landing" folder using either the GUI in your finder window, or typing **cd address-book** and pressing return to navigate into the project folder, and then typing **open index.html** in the terminal from within the **address-book** folder.  
 
-## Link to [GitHub Pages](https://frank-proulx.github.io//)
+## Link to [GitHub Pages](https://frank-proulx.github.io/address-book/)
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+No known bugs
 
 ## License
 
